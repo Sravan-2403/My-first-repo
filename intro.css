@@ -1,7 +1,36 @@
-#intro{
-    height: calc(100vh-4rem);
+.introcontent{
+    position: absolute;
+    height: 100vh;
     width: 100vw;
-    max-width: 75rem;
-    margin: 0 auto;
-    overflow: hidden;
+    padding-top: 10rem;
+    padding-left: 35rem;
+    font-size: 3rem;
+    color: black;    
+}
+
+
+
+.pic{
+    position: absolute;
+    top:15rem;
+    right: 65rem;
+    z-index: -1;
+    object-fit: cover;
+    height: 50vh;
+    border-radius: 20%;
+    border: black solid;
+    border-width: 0.5rem;     
+}
+
+.Hello{
+    font-style:normal;
+}
+.introtext{
+    font-style: oblique;
+}
+.introname{
+    color: blue;
+}
+.intropara{
+    font-style: oblique;
 }
